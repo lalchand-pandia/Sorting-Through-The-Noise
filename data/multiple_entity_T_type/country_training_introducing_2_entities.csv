@@ -1,0 +1,121 @@
+context	ending	target_occupation	attractor_1
+Jake lives in Chile and Rowan lives in Beijing.	The capital of Jake's country is [MASK].	Santiago	Beijing
+Jake has a sister and now lives in Chile and Rowan lives in Beijing.	The capital of Jake's country is [MASK].	Santiago	Beijing
+Jake has a sister, played basketball and now lives in Chile and Rowan lives in Beijing.	The capital of Jake's country is [MASK].	Santiago	Beijing
+Jake has a sister, played basketball, sang in a choir and now lives in Chile and Rowan lives in Beijing.	The capital of Jake's country is [MASK].	Santiago	Beijing
+John lives in Chile and Joe lives in Helsinki.	The capital of John's country is [MASK].	Santiago	Helsinki
+John has a sister and now lives in Chile and Joe lives in Helsinki.	The capital of John's country is [MASK].	Santiago	Helsinki
+John has a sister, played basketball and now lives in Chile and Joe lives in Helsinki.	The capital of John's country is [MASK].	Santiago	Helsinki
+John has a sister, played basketball, sang in a choir and now lives in Chile and Joe lives in Helsinki.	The capital of John's country is [MASK].	Santiago	Helsinki
+Jack lives in Chile and John lives in Paris.	The capital of Jack's country is [MASK].	Santiago	Paris
+Jack has a sister and now lives in Chile and John lives in Paris.	The capital of Jack's country is [MASK].	Santiago	Paris
+Jack has a sister, played basketball and now lives in Chile and John lives in Paris.	The capital of Jack's country is [MASK].	Santiago	Paris
+Jack has a sister, played basketball, sang in a choir and now lives in Chile and John lives in Paris.	The capital of Jack's country is [MASK].	Santiago	Paris
+Jack lives in Chile and Daniel lives in Jakarta.	The capital of Jack's country is [MASK].	Santiago	Jakarta
+Jack has a sister and now lives in Chile and Daniel lives in Jakarta.	The capital of Jack's country is [MASK].	Santiago	Jakarta
+Jack has a sister, played basketball and now lives in Chile and Daniel lives in Jakarta.	The capital of Jack's country is [MASK].	Santiago	Jakarta
+Jack has a sister, played basketball, sang in a choir and now lives in Chile and Daniel lives in Jakarta.	The capital of Jack's country is [MASK].	Santiago	Jakarta
+Rowan lives in Chile and Jake lives in Warsaw.	The capital of Rowan's country is [MASK].	Santiago	Warsaw
+Rowan has a sister and now lives in Chile and Jake lives in Warsaw.	The capital of Rowan's country is [MASK].	Santiago	Warsaw
+Rowan has a sister, played basketball and now lives in Chile and Jake lives in Warsaw.	The capital of Rowan's country is [MASK].	Santiago	Warsaw
+Rowan has a sister, played basketball, sang in a choir and now lives in Chile and Jake lives in Warsaw.	The capital of Rowan's country is [MASK].	Santiago	Warsaw
+Joe lives in China and Jack lives in Santiago.	The capital of Joe's country is [MASK].	Beijing	Santiago
+Joe has a sister and now lives in China and Jack lives in Santiago.	The capital of Joe's country is [MASK].	Beijing	Santiago
+Joe has a sister, played basketball and now lives in China and Jack lives in Santiago.	The capital of Joe's country is [MASK].	Beijing	Santiago
+Joe has a sister, played basketball, sang in a choir and now lives in China and Jack lives in Santiago.	The capital of Joe's country is [MASK].	Beijing	Santiago
+John lives in China and Sebastian lives in Helsinki.	The capital of John's country is [MASK].	Beijing	Helsinki
+John has a sister and now lives in China and Sebastian lives in Helsinki.	The capital of John's country is [MASK].	Beijing	Helsinki
+John has a sister, played basketball and now lives in China and Sebastian lives in Helsinki.	The capital of John's country is [MASK].	Beijing	Helsinki
+John has a sister, played basketball, sang in a choir and now lives in China and Sebastian lives in Helsinki.	The capital of John's country is [MASK].	Beijing	Helsinki
+Jake lives in China and Sebastian lives in Paris.	The capital of Jake's country is [MASK].	Beijing	Paris
+Jake has a sister and now lives in China and Sebastian lives in Paris.	The capital of Jake's country is [MASK].	Beijing	Paris
+Jake has a sister, played basketball and now lives in China and Sebastian lives in Paris.	The capital of Jake's country is [MASK].	Beijing	Paris
+Jake has a sister, played basketball, sang in a choir and now lives in China and Sebastian lives in Paris.	The capital of Jake's country is [MASK].	Beijing	Paris
+Jake lives in China and Joe lives in Jakarta.	The capital of Jake's country is [MASK].	Beijing	Jakarta
+Jake has a sister and now lives in China and Joe lives in Jakarta.	The capital of Jake's country is [MASK].	Beijing	Jakarta
+Jake has a sister, played basketball and now lives in China and Joe lives in Jakarta.	The capital of Jake's country is [MASK].	Beijing	Jakarta
+Jake has a sister, played basketball, sang in a choir and now lives in China and Joe lives in Jakarta.	The capital of Jake's country is [MASK].	Beijing	Jakarta
+Joe lives in China and John lives in Warsaw.	The capital of Joe's country is [MASK].	Beijing	Warsaw
+Joe has a sister and now lives in China and John lives in Warsaw.	The capital of Joe's country is [MASK].	Beijing	Warsaw
+Joe has a sister, played basketball and now lives in China and John lives in Warsaw.	The capital of Joe's country is [MASK].	Beijing	Warsaw
+Joe has a sister, played basketball, sang in a choir and now lives in China and John lives in Warsaw.	The capital of Joe's country is [MASK].	Beijing	Warsaw
+Jack lives in Finland and Jake lives in Santiago.	The capital of Jack's country is [MASK].	Helsinki	Santiago
+Jack has a sister and now lives in Finland and Jake lives in Santiago.	The capital of Jack's country is [MASK].	Helsinki	Santiago
+Jack has a sister, played basketball and now lives in Finland and Jake lives in Santiago.	The capital of Jack's country is [MASK].	Helsinki	Santiago
+Jack has a sister, played basketball, sang in a choir and now lives in Finland and Jake lives in Santiago.	The capital of Jack's country is [MASK].	Helsinki	Santiago
+Jake lives in Finland and Jack lives in Beijing.	The capital of Jake's country is [MASK].	Helsinki	Beijing
+Jake has a sister and now lives in Finland and Jack lives in Beijing.	The capital of Jake's country is [MASK].	Helsinki	Beijing
+Jake has a sister, played basketball and now lives in Finland and Jack lives in Beijing.	The capital of Jake's country is [MASK].	Helsinki	Beijing
+Jake has a sister, played basketball, sang in a choir and now lives in Finland and Jack lives in Beijing.	The capital of Jake's country is [MASK].	Helsinki	Beijing
+Joe lives in Finland and Sebastian lives in Paris.	The capital of Joe's country is [MASK].	Helsinki	Paris
+Joe has a sister and now lives in Finland and Sebastian lives in Paris.	The capital of Joe's country is [MASK].	Helsinki	Paris
+Joe has a sister, played basketball and now lives in Finland and Sebastian lives in Paris.	The capital of Joe's country is [MASK].	Helsinki	Paris
+Joe has a sister, played basketball, sang in a choir and now lives in Finland and Sebastian lives in Paris.	The capital of Joe's country is [MASK].	Helsinki	Paris
+Daniel lives in Finland and Jake lives in Jakarta.	The capital of Daniel's country is [MASK].	Helsinki	Jakarta
+Daniel has a sister and now lives in Finland and Jake lives in Jakarta.	The capital of Daniel's country is [MASK].	Helsinki	Jakarta
+Daniel has a sister, played basketball and now lives in Finland and Jake lives in Jakarta.	The capital of Daniel's country is [MASK].	Helsinki	Jakarta
+Daniel has a sister, played basketball, sang in a choir and now lives in Finland and Jake lives in Jakarta.	The capital of Daniel's country is [MASK].	Helsinki	Jakarta
+Daniel lives in Finland and John lives in Warsaw.	The capital of Daniel's country is [MASK].	Helsinki	Warsaw
+Daniel has a sister and now lives in Finland and John lives in Warsaw.	The capital of Daniel's country is [MASK].	Helsinki	Warsaw
+Daniel has a sister, played basketball and now lives in Finland and John lives in Warsaw.	The capital of Daniel's country is [MASK].	Helsinki	Warsaw
+Daniel has a sister, played basketball, sang in a choir and now lives in Finland and John lives in Warsaw.	The capital of Daniel's country is [MASK].	Helsinki	Warsaw
+Sebastian lives in France and Jack lives in Santiago.	The capital of Sebastian's country is [MASK].	Paris	Santiago
+Sebastian has a sister and now lives in France and Jack lives in Santiago.	The capital of Sebastian's country is [MASK].	Paris	Santiago
+Sebastian has a sister, played basketball and now lives in France and Jack lives in Santiago.	The capital of Sebastian's country is [MASK].	Paris	Santiago
+Sebastian has a sister, played basketball, sang in a choir and now lives in France and Jack lives in Santiago.	The capital of Sebastian's country is [MASK].	Paris	Santiago
+John lives in France and Daniel lives in Beijing.	The capital of John's country is [MASK].	Paris	Beijing
+John has a sister and now lives in France and Daniel lives in Beijing.	The capital of John's country is [MASK].	Paris	Beijing
+John has a sister, played basketball and now lives in France and Daniel lives in Beijing.	The capital of John's country is [MASK].	Paris	Beijing
+John has a sister, played basketball, sang in a choir and now lives in France and Daniel lives in Beijing.	The capital of John's country is [MASK].	Paris	Beijing
+Jack lives in France and Sebastian lives in Helsinki.	The capital of Jack's country is [MASK].	Paris	Helsinki
+Jack has a sister and now lives in France and Sebastian lives in Helsinki.	The capital of Jack's country is [MASK].	Paris	Helsinki
+Jack has a sister, played basketball and now lives in France and Sebastian lives in Helsinki.	The capital of Jack's country is [MASK].	Paris	Helsinki
+Jack has a sister, played basketball, sang in a choir and now lives in France and Sebastian lives in Helsinki.	The capital of Jack's country is [MASK].	Paris	Helsinki
+Joe lives in France and Rowan lives in Jakarta.	The capital of Joe's country is [MASK].	Paris	Jakarta
+Joe has a sister and now lives in France and Rowan lives in Jakarta.	The capital of Joe's country is [MASK].	Paris	Jakarta
+Joe has a sister, played basketball and now lives in France and Rowan lives in Jakarta.	The capital of Joe's country is [MASK].	Paris	Jakarta
+Joe has a sister, played basketball, sang in a choir and now lives in France and Rowan lives in Jakarta.	The capital of Joe's country is [MASK].	Paris	Jakarta
+Sebastian lives in France and Daniel lives in Warsaw.	The capital of Sebastian's country is [MASK].	Paris	Warsaw
+Sebastian has a sister and now lives in France and Daniel lives in Warsaw.	The capital of Sebastian's country is [MASK].	Paris	Warsaw
+Sebastian has a sister, played basketball and now lives in France and Daniel lives in Warsaw.	The capital of Sebastian's country is [MASK].	Paris	Warsaw
+Sebastian has a sister, played basketball, sang in a choir and now lives in France and Daniel lives in Warsaw.	The capital of Sebastian's country is [MASK].	Paris	Warsaw
+Daniel lives in Indonesia and Joe lives in Santiago.	The capital of Daniel's country is [MASK].	Jakarta	Santiago
+Daniel has a sister and now lives in Indonesia and Joe lives in Santiago.	The capital of Daniel's country is [MASK].	Jakarta	Santiago
+Daniel has a sister, played basketball and now lives in Indonesia and Joe lives in Santiago.	The capital of Daniel's country is [MASK].	Jakarta	Santiago
+Daniel has a sister, played basketball, sang in a choir and now lives in Indonesia and Joe lives in Santiago.	The capital of Daniel's country is [MASK].	Jakarta	Santiago
+Jack lives in Indonesia and Daniel lives in Beijing.	The capital of Jack's country is [MASK].	Jakarta	Beijing
+Jack has a sister and now lives in Indonesia and Daniel lives in Beijing.	The capital of Jack's country is [MASK].	Jakarta	Beijing
+Jack has a sister, played basketball and now lives in Indonesia and Daniel lives in Beijing.	The capital of Jack's country is [MASK].	Jakarta	Beijing
+Jack has a sister, played basketball, sang in a choir and now lives in Indonesia and Daniel lives in Beijing.	The capital of Jack's country is [MASK].	Jakarta	Beijing
+Daniel lives in Indonesia and Sebastian lives in Helsinki.	The capital of Daniel's country is [MASK].	Jakarta	Helsinki
+Daniel has a sister and now lives in Indonesia and Sebastian lives in Helsinki.	The capital of Daniel's country is [MASK].	Jakarta	Helsinki
+Daniel has a sister, played basketball and now lives in Indonesia and Sebastian lives in Helsinki.	The capital of Daniel's country is [MASK].	Jakarta	Helsinki
+Daniel has a sister, played basketball, sang in a choir and now lives in Indonesia and Sebastian lives in Helsinki.	The capital of Daniel's country is [MASK].	Jakarta	Helsinki
+Jack lives in Indonesia and Jake lives in Paris.	The capital of Jack's country is [MASK].	Jakarta	Paris
+Jack has a sister and now lives in Indonesia and Jake lives in Paris.	The capital of Jack's country is [MASK].	Jakarta	Paris
+Jack has a sister, played basketball and now lives in Indonesia and Jake lives in Paris.	The capital of Jack's country is [MASK].	Jakarta	Paris
+Jack has a sister, played basketball, sang in a choir and now lives in Indonesia and Jake lives in Paris.	The capital of Jack's country is [MASK].	Jakarta	Paris
+Jake lives in Indonesia and Jack lives in Warsaw.	The capital of Jake's country is [MASK].	Jakarta	Warsaw
+Jake has a sister and now lives in Indonesia and Jack lives in Warsaw.	The capital of Jake's country is [MASK].	Jakarta	Warsaw
+Jake has a sister, played basketball and now lives in Indonesia and Jack lives in Warsaw.	The capital of Jake's country is [MASK].	Jakarta	Warsaw
+Jake has a sister, played basketball, sang in a choir and now lives in Indonesia and Jack lives in Warsaw.	The capital of Jake's country is [MASK].	Jakarta	Warsaw
+Sebastian lives in Poland and Daniel lives in Santiago.	The capital of Sebastian's country is [MASK].	Warsaw	Santiago
+Sebastian has a sister and now lives in Poland and Daniel lives in Santiago.	The capital of Sebastian's country is [MASK].	Warsaw	Santiago
+Sebastian has a sister, played basketball and now lives in Poland and Daniel lives in Santiago.	The capital of Sebastian's country is [MASK].	Warsaw	Santiago
+Sebastian has a sister, played basketball, sang in a choir and now lives in Poland and Daniel lives in Santiago.	The capital of Sebastian's country is [MASK].	Warsaw	Santiago
+Jake lives in Poland and Joe lives in Beijing.	The capital of Jake's country is [MASK].	Warsaw	Beijing
+Jake has a sister and now lives in Poland and Joe lives in Beijing.	The capital of Jake's country is [MASK].	Warsaw	Beijing
+Jake has a sister, played basketball and now lives in Poland and Joe lives in Beijing.	The capital of Jake's country is [MASK].	Warsaw	Beijing
+Jake has a sister, played basketball, sang in a choir and now lives in Poland and Joe lives in Beijing.	The capital of Jake's country is [MASK].	Warsaw	Beijing
+Sebastian lives in Poland and John lives in Helsinki.	The capital of Sebastian's country is [MASK].	Warsaw	Helsinki
+Sebastian has a sister and now lives in Poland and John lives in Helsinki.	The capital of Sebastian's country is [MASK].	Warsaw	Helsinki
+Sebastian has a sister, played basketball and now lives in Poland and John lives in Helsinki.	The capital of Sebastian's country is [MASK].	Warsaw	Helsinki
+Sebastian has a sister, played basketball, sang in a choir and now lives in Poland and John lives in Helsinki.	The capital of Sebastian's country is [MASK].	Warsaw	Helsinki
+Jake lives in Poland and Joe lives in Paris.	The capital of Jake's country is [MASK].	Warsaw	Paris
+Jake has a sister and now lives in Poland and Joe lives in Paris.	The capital of Jake's country is [MASK].	Warsaw	Paris
+Jake has a sister, played basketball and now lives in Poland and Joe lives in Paris.	The capital of Jake's country is [MASK].	Warsaw	Paris
+Jake has a sister, played basketball, sang in a choir and now lives in Poland and Joe lives in Paris.	The capital of Jake's country is [MASK].	Warsaw	Paris
+Daniel lives in Poland and Jack lives in Jakarta.	The capital of Daniel's country is [MASK].	Warsaw	Jakarta
+Daniel has a sister and now lives in Poland and Jack lives in Jakarta.	The capital of Daniel's country is [MASK].	Warsaw	Jakarta
+Daniel has a sister, played basketball and now lives in Poland and Jack lives in Jakarta.	The capital of Daniel's country is [MASK].	Warsaw	Jakarta
+Daniel has a sister, played basketball, sang in a choir and now lives in Poland and Jack lives in Jakarta.	The capital of Daniel's country is [MASK].	Warsaw	Jakarta
