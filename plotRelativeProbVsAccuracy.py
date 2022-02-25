@@ -1,4 +1,4 @@
-import csv
+import csv, sys
 import re
 import matplotlib.pyplot as plt
 import matplotlib
@@ -12,6 +12,7 @@ matplotlib.rcParams.update({
 import pandas as pd
 import seaborn as sns
 import numpy as np
+type = sys.argv[1]
 
 
 fieldnames = ['sentence','distance_from_beginning','distance_from_masked_token','target_prob','ordered_items','target_occupation',\
@@ -62,11 +63,12 @@ for model in model_list:
 
 	acc_count_attractor = []
 
-	
-	#for semantically related attractor. This corresponds to Fig 2
-	#file = dir+'multiple_entity_distractor/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
-	#for semantically unrelated attractor. This corresponds to Fig 3
-	file = dir+'multiple_entity_with_neutral_distractor/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
+	if type == "sra":
+		#for semantically related attractor. This corresponds to Fig 2
+		file = dir+'multiple_entity_distractor/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
+	if type == "sua":
+		#for semantically unrelated attractor. This corresponds to Fig 3
+		file = dir+'multiple_entity_with_neutral_distractor/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
 	f = open(file,'r')
 	reader = csv.DictReader(f,delimiter='\t')
 	#print('count ',count)
@@ -143,11 +145,12 @@ for model in model_list:
 	correct_5_attractor_single_entity = 0
 
 	acc_count_attractor_single_entity = []
-
-	#for semantically related attractor. This corresponds to Fig 2
-	#file = dir+'single_entity_distractor/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
-	#for semantically unrelated attractor. This corresponds to Fig 3
-	file = dir+'single_entity_with_neutral_distractor/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
+	if type == "sra":
+		#for semantically related attractor. This corresponds to Fig 2
+		file = dir+'single_entity_distractor/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
+	if type == "sua":
+		#for semantically unrelated attractor. This corresponds to Fig 3
+		file = dir+'single_entity_with_neutral_distractor/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
 	f = open(file,'r')
 	reader = csv.DictReader(f,delimiter='\t')
 	#print('count ',count)

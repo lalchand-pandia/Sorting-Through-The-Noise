@@ -1,5 +1,6 @@
 import csv
 import re
+import sys
 import matplotlib.pyplot as plt
 import matplotlib
 '''matplotlib.use("pgf")
@@ -13,6 +14,7 @@ import pandas as pd
 import seaborn as sns
 import numpy as np
 #f3 = open('correct.txt','w')
+type = sys.argv[1]
 
 fieldnames = ['sentence','distance_from_beginning','distance_from_masked_token','target_prob','ordered_items','target_occupation',\
 'count_attractors','relative_prob','relative_rank']
@@ -61,17 +63,23 @@ for model in model_list:
 	correct = 0
 
 	acc_count_attractor = []
-
-	#for semantically related attractor. This corresponds to Fig 1
-	#file = dir+'multiple_entity_distractor/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
-	#for semantically unrelated attractor. This corresponds to Fig 8
-	#file = dir+'multiple_entity_with_neutral_distractor/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
-	#for semantically related attractor intervening between key entity and fact. This corresponds to Fig 4
-	#file = dir+'multiple_entity_distractorSwapped/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
-	#for semantically related T-type attractor . This corresponds to Fig 7
-	#file = dir+'multiple_entity_object/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
-	#for semantically related B-type attractor . This corresponds to Fig 6
-	file = dir+'multiple_entity_profession/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
+	file = " "
+	print("type ",type)
+	if type == "sra":
+		#for semantically related attractor. This corresponds to Fig 1
+		file = dir+'multiple_entity_distractor/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
+	if type == "sua":
+		#for semantically unrelated attractor. This corresponds to Fig 8
+		file = dir+'multiple_entity_with_neutral_distractor/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
+	if type == "inter":
+		#for semantically related attractor intervening between key entity and fact. This corresponds to Fig 4
+		file = dir+'multiple_entity_distractorSwapped/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
+	if type == "T":
+		#for semantically related T-type attractor . This corresponds to Fig 7
+		file = dir+'multiple_entity_object/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
+	if type == "B":
+		#for semantically related B-type attractor . This corresponds to Fig 6
+		file = dir+'multiple_entity_profession/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
 	f = open(file,'r')
 	reader = csv.DictReader(f,delimiter='\t')
 	#print('count ',count)
@@ -148,17 +156,23 @@ for model in model_list:
 	correct_5_attractor_single_entity = 0
 
 	acc_count_attractor_single_entity = []
+	file = " "
+	if type == "sra":
+		#for semantically related attractor. This corresponds to Fig 1
+		file = dir+'single_entity_distractor/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
+	if type == "sua":
+		#for semantically unrelated attractor. This corresponds to Fig 8
+		file = dir+'single_entity_with_neutral_distractor/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
 
-	#for semantically related attractor. This corresponds to Fig 1
-	#file = dir+'single_entity_distractor/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
-	#for semantically unrelated attractor. This corresponds to Fig 8
-	#file = dir+'single_entity_with_neutral_distractor/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
-	#for semantically related attractor intervening between key entity and fact. This corresponds to Fig 4
-	#file = dir+'single_entity_distractorSwapped/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
-	#for semantically related T-type attractor . This corresponds to Fig 7
-	#file = dir+'single_entity_object/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
-	#for semantically related B-type attractor . This corresponds to Fig 6
-	file = dir+'single_entity_profession/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
+	if type == "inter":
+		#for semantically related attractor intervening between key entity and fact. This corresponds to Fig 4
+		file = dir+'single_entity_distractorSwapped/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
+	if type == "T":
+		#for semantically related T-type attractor . This corresponds to Fig 7
+		file = dir+'single_entity_object/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
+	if type == "B":
+		#for semantically related B-type attractor . This corresponds to Fig 6
+		file = dir+'single_entity_profession/'+model+'/complete_data_For_MultipleEntityObjectDistractorAccuracy'+model+'.csv'
 	f = open(file,'r')
 	reader = csv.DictReader(f,delimiter='\t')
 	#print('count ',count)
